@@ -1,0 +1,239 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Scene_Skybox_BG
+  m_Shader: {fileID: 4800000, guid: f3f3868f0d4742a4ab747781b782576d, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BG_Nebula:
+        m_Texture: {fileID: 2800000, guid: 54997d379d47de24a982561cabfd3d81, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DesignateNebulaNoise:
+        m_Texture: {fileID: 2800000, guid: 0ea7944d8f9c3214b95d49a23e5ac954, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisortCloudNoise_Dirt5:
+        m_Texture: {fileID: 2800000, guid: 5fb5a5086e739ba49adbbd38a775b388, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisortDirt_Flowmap:
+        m_Texture: {fileID: 2800000, guid: 5a0ee83140399fe4ea78cca8450a1c15, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisortDirt_Map:
+        m_Texture: {fileID: 2800000, guid: 3eccb9b9da1df174f90b8ddbb37792a0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisortNoise_Dirt1:
+        m_Texture: {fileID: 2800000, guid: 0ea7944d8f9c3214b95d49a23e5ac954, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisortNoise_Dirt4:
+        m_Texture: {fileID: 2800000, guid: 260173573a981fe4f822043b056301a1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisortNoise_Dirt5:
+        m_Texture: {fileID: 2800000, guid: 5fb5a5086e739ba49adbbd38a775b388, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisortNoise_Dirt6:
+        m_Texture: {fileID: 2800000, guid: b570ba6e0b0a33349980ba6ee8db8a28, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisortStartsNoise_1:
+        m_Texture: {fileID: 2800000, guid: 70e3e3256cbb5f740b1957db13f7c462, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisortStartsNoise_2:
+        m_Texture: {fileID: 2800000, guid: 5a0ee83140399fe4ea78cca8450a1c15, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisortStartsNoise_4:
+        m_Texture: {fileID: 2800000, guid: 6df8192abdc98274187083b4d21d7479, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisortStartsNoise_6:
+        m_Texture: {fileID: 2800000, guid: 32975360a084d2541abd84770d1f2241, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NebulaDesignateNoise:
+        m_Texture: {fileID: 2800000, guid: 0ea7944d8f9c3214b95d49a23e5ac954, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NebulaFlowMap:
+        m_Texture: {fileID: 2800000, guid: 5a0ee83140399fe4ea78cca8450a1c15, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NebulaFlowMap_:
+        m_Texture: {fileID: 2800000, guid: 5a0ee83140399fe4ea78cca8450a1c15, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Stars1:
+        m_Texture: {fileID: 2800000, guid: 3d2ce3c2b96432243ab626da02b296c7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Stars2:
+        m_Texture: {fileID: 2800000, guid: 3d2ce3c2b96432243ab626da02b296c7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarsColor_LUT:
+        m_Texture: {fileID: 2800000, guid: 32975360a084d2541abd84770d1f2241, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarsNoise1:
+        m_Texture: {fileID: 2800000, guid: 2bfb8742fdc10c44fb510ff6db8dd65c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarsNoiseMask:
+        m_Texture: {fileID: 2800000, guid: 2bfb8742fdc10c44fb510ff6db8dd65c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BG_Int: 0.744
+    - _BottomLightMaskInt: 0.727
+    - _BottomLightMask_L: 0.686
+    - _Cloud_Int: 0.562
+    - _DisortCloudFlowmap_Int: 0.091
+    - _DisortDirt_Int: 1
+    - _DisortDirt_Speed: 0.24
+    - _DisortNoise1Panner_Int: 1
+    - _DisortNoise1_Int: 0.976
+    - _DisortNoise2_Int: 2
+    - _DisortNoiseInt: 2
+    - _DisortNoise_Int: 0
+    - _Float1: 128.5
+    - _Float11: 1
+    - _Float14: 0.133
+    - _Float3: 1.032
+    - _Float4: 0.979
+    - _Float7: 0
+    - _Float8: 0.53
+    - _Float9: 0
+    - _FogEnd: 5.1
+    - _FogEnd1: 7.58
+    - _FogEnd2: 0
+    - _FogInt: 0.67
+    - _FogInt1: 1
+    - _FogInt2: 1.52
+    - _FogLerp: 1
+    - _FogPow: 0.906
+    - _FogSharp: 0.31
+    - _FogStart: 20.34
+    - _FogStart1: 13.85
+    - _FogStart2: 32.4
+    - _Luminance_Int: 1
+    - _Luminance_Threshold: 0.071
+    - _NebulaDisort_Lerp: 0.844
+    - _NebulaFlow_Speed: 0.1
+    - _NebulaLuminance_Threshold: 0.082
+    - _Nebula_Int: 2.21
+    - _NightSky_Int: 0.064
+    - _OffsetX: 0.15
+    - _OffsetY: -1.4
+    - _Size: 1
+    - _Star1Int: 1.37
+    - _Star1Threshold: 0.339
+    - _Stars1_Int: 2
+    - _Stars1_Threshold: 0.606
+    - _Stars2_Int: 2
+    - _Stars2_Threshold: 0.413
+    - _StarsBGColor_Int: 2
+    - _StarsBGColor_Int1: 3
+    - _StarsBGColor_Int2: 3
+    - _StarsColor_LUT_X1: 0.888
+    - _StarsColor_LUT_X2: 0.813
+    - _StarsColor_LUT_Y1: 3.15
+    - _StarsColor_LUT_Y2: 2.3
+    - _StarsColor_X: 0.619
+    - _StarsColor_X1: 0.926
+    - _StarsColor_X2: 0.769
+    - _StarsColor_Y: 2.05
+    - _StarsColor_Y1: 8
+    - _StarsColor_Y2: 2.06
+    - _StarsNoise2_Int: 0.488
+    - _Tilling: 21.98
+    - __dirty: 0
+    m_Colors:
+    - _CloudColor: {r: 0.3812745, g: 0.57731384, b: 0.6792453, a: 0}
+    - _DesignateNebulaNoise_Tilling: {r: 10, g: 10, b: -71.5, a: -44.7}
+    - _DisortCloudFlowmap_DirStr: {r: 3, g: 0.1, b: 0.2, a: 0.1}
+    - _DisortCloudNoiseFlowmap_Str: {r: 0, g: 0, b: 0, a: 0}
+    - _DisortCloud_Speed: {r: -0.25, g: 0, b: 0, a: 0}
+    - _DisortDirtNoise_Tilling: {r: 0.7, g: 1, b: 0.1, a: 2.04}
+    - _DisortDirt_Color: {r: 0.11792451, g: 0.75241345, b: 1, a: 0}
+    - _DisortDirt_Tilling: {r: 1, g: 1, b: 0, a: 0}
+    - _DisortGradualMask_Tilling: {r: 58.86, g: 1, b: 0, a: 0}
+    - _DisortNoise1Panner_Speed: {r: -0.3, g: 0, b: 0, a: 0}
+    - _DisortNoise1Panner_Tilling: {r: 0.24, g: 0.7, b: 0, a: 10.08}
+    - _DisortNoise1_Speed: {r: 0.2, g: 0, b: 0, a: 0}
+    - _DisortNoise1_Tilling: {r: 3, g: 3, b: 0, a: 0}
+    - _DisortNoise2Panner_Speed: {r: -0.1, g: 0, b: 0, a: 0}
+    - _DisortNoise2Panner_Tilling: {r: 10, g: 6.01, b: 0, a: 5.17}
+    - _DisortNoise2_Speed: {r: 0.1, g: -0.1, b: 0, a: 0}
+    - _DisortNoise2_Tilling: {r: 5, g: 5, b: 0, a: 0}
+    - _DisortNoisePannerSpeed2: {r: 1, g: 0, b: 0, a: 0}
+    - _DisortNoiseSpeed: {r: 0.3, g: 0.3, b: 0, a: 0}
+    - _DisortNoiseTilling: {r: 3, g: 3, b: 0, a: 0}
+    - _DisortNoise_Speed: {r: 0.2, g: -0.1, b: 0, a: 0}
+    - _DisortNoise_Tilling: {r: 1, g: 1, b: 0, a: 0}
+    - _NebulaFlowMap_Tilling: {r: 1.27, g: 1, b: -1.2, a: 1.6}
+    - _NebulaFlow_Dir: {r: 1, g: 1, b: 0, a: 0}
+    - _NebulaFlow_Str: {r: 1, g: 2.36, b: 2.28, a: 0}
+    - _Nebula_Color: {r: 0.53960484, g: 0.76655173, b: 0.8113208, a: 0}
+    - _Nebula_Tilling: {r: -3.25, g: 3.93, b: 0, a: 5.51}
+    - _NoisePanner1: {r: 0.1, g: 0.1, b: 0, a: 0}
+    - _Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _ScreenCoordUV_Tilling: {r: 1, g: 1, b: 0, a: 0}
+    - _Stars1_Tilling: {r: 1.5, g: 1.5, b: 0.6, a: 0.3}
+    - _Stars2_Tilling: {r: 1, g: 1.21, b: 2, a: 0}
+    - _StarsBG1_Color: {r: 1, g: 1, b: 1, a: 1}
+    - _StarsBG2_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _StarsBGColor: {r: 0.047169805, g: 0.047169805, b: 0.047169805, a: 0}
+    - _StarsBGColor1: {r: 0.16470589, g: 0.31968084, b: 0.8117647, a: 0}
+    - _StarsBGColor2: {r: 0.5707547, g: 0.9339622, b: 1, a: 0}
+    - _StarsNoiseTilling: {r: 0, g: 0.83, b: 0, a: 0}
+    - _StarsNoiseTilling1: {r: 0.1, g: -0.14, b: 0, a: 0}
+    - _StarsNoiseTilling2: {r: 44.62, g: 0.52, b: 0, a: 0}
+    - _Tilling: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _UVTilling: {r: 2, g: 2, b: 0, a: 1.04}
+    - _Vector0: {r: 1, g: 1, b: 0, a: 0}
+    - _Vector1: {r: 128, g: 8, b: 0, a: 0}
+    - _Vector2: {r: 115.13, g: -0.41, b: 0, a: 0}
+    - _Vector4: {r: 3994.8, g: -1057, b: 0, a: 0}
+  m_BuildTextureStacks: []

@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Char_Eyes
+  m_Shader: {fileID: 4800000, guid: e2964c3d6a6aedd48acb93c9a9876906, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: fd19814ce4f70c940901695a75559427, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseColor:
+        m_Texture: {fileID: 2800000, guid: fd19814ce4f70c940901695a75559427, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EyesBall_Mask:
+        m_Texture: {fileID: 2800000, guid: f747f378a137aed4aa7d68bcfe97cb0a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EyesHDD_Mask:
+        m_Texture: {fileID: 2800000, guid: 298cf333cfac0bd47bbd5b5a89ccbb80, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EyesLiftLight_Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EyesUpDark:
+        m_Texture: {fileID: 2800000, guid: 08a87f7b43338184bb3c9f3380b2f7e6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Eyes_BallMask:
+        m_Texture: {fileID: 2800000, guid: f747f378a137aed4aa7d68bcfe97cb0a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Eyes_BaseColor:
+        m_Texture: {fileID: 2800000, guid: fd19814ce4f70c940901695a75559427, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Eyes_EyeballMask:
+        m_Texture: {fileID: 2800000, guid: f747f378a137aed4aa7d68bcfe97cb0a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Eyes_EyesUpDark:
+        m_Texture: {fileID: 2800000, guid: 08a87f7b43338184bb3c9f3380b2f7e6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Eyes_HDD:
+        m_Texture: {fileID: 2800000, guid: 298cf333cfac0bd47bbd5b5a89ccbb80, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Eyes_HDDMask:
+        m_Texture: {fileID: 2800000, guid: 298cf333cfac0bd47bbd5b5a89ccbb80, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Eyes_LiftLightMask:
+        m_Texture: {fileID: 2800000, guid: 92ea1ceaf7069f045990d3ee22a0707a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Eyes_RB_Mask:
+        m_Texture: {fileID: 2800000, guid: 92ea1ceaf7069f045990d3ee22a0707a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Eyes_UpDark:
+        m_Texture: {fileID: 2800000, guid: 08a87f7b43338184bb3c9f3380b2f7e6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Face_SDF:
+        m_Texture: {fileID: 2800000, guid: 08a87f7b43338184bb3c9f3380b2f7e6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 2800000, guid: fd19814ce4f70c940901695a75559427, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _Decal_Int: 1
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EdgeLength: 2
+    - _EyesBallContrast_Pow: 1.3
+    - _EyesBallDepth: 0.06
+    - _EyesBallTransLight: 1.048
+    - _EyesBallWhite_Int: 1
+    - _EyesBall_BallPow: 1
+    - _EyesBall_BallScale: 1.03
+    - _EyesBall_Int: 1.46
+    - _EyesLine_Int: 2
+    - _EyesLine_Range: 0
+    - _EyesUpDarkNoise_Scale: 0.084
+    - _EyesUpDark_Int: 0.693
+    - _EyesUpDark_Int2: 0
+    - _EyesWhitePipleDark_Int: 1
+    - _Float0: 0.472
+    - _Float1: 0.64
+    - _Float3: 0.68
+    - _Float4: 0
+    - _FresnelPower: 0.39
+    - _FresnelScale: 3
+    - _Fresnel_Bias: 0
+    - _Fresnel_Power: 0.21
+    - _Fresnel_Scale: 4.54
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _H: 0.44
+    - _Hight: 4.68
+    - _HightLightPointNoise_Threshold: 0.602
+    - _HightLight__PoingInt: 3
+    - _IndirectSpecular_Int: 0.148
+    - _IndirectSpecular_Smoothness: 1
+    - _IrisContrast_Int: 1.3
+    - _IrisContrast_Pow: 0.959
+    - _Iris_Int: 1
+    - _LifeEyesBallLight_Int: 0.359
+    - _LightParameter: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _NoiseScale: 2.65
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Pupil_Int: 1
+    - _Scale: 0.01
+    - _Shininess: 0.436
+    - _SmoothnessTextureChannel: 0
+    - _SpecularEdgeSoft_Int: 1.62
+    - _SpecularHighlights: 1
+    - _Specular_Int: 1
+    - _SrcBlend: 1
+    - _Threshold: 0.661
+    - _UVSec: 0
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color0: {r: 0.811343, g: 0.9622642, b: 0.8033998, a: 0}
+    - _DecalSpecular_Color: {r: 0.67515975, g: 1, b: 0.43867922, a: 0}
+    - _Decal_Color: {r: 0.8824454, g: 1, b: 0.033018887, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _EyesBallWhite_Color: {r: 0.9811321, g: 0.972153, b: 0.93948025, a: 0}
+    - _EyesBall_Color: {r: 0.9254902, g: 0.76492053, b: 0.6666667, a: 0}
+    - _EyesLine_Color: {r: 0.34901962, g: 0.1661504, b: 0, a: 0}
+    - _EyesUpDarkNoise_Tilling: {r: 7.3, g: 64.27, b: -21.7, a: 35.5}
+    - _EyesUpDark_Color: {r: 0.7830189, g: 0.5210185, b: 0.05540227, a: 0}
+    - _Eyesball_Color: {r: 0.754717, g: 0.71629924, b: 0.28835887, a: 0}
+    - _FresnelColor: {r: 0.40000004, g: 0.45882356, b: 0.54509807, a: 0}
+    - _HightLightPointNoise_Tilling: {r: 1, g: 0.87, b: 0.01, a: 0.22}
+    - _HightLight__PoingColor: {r: 1, g: 1, b: 1, a: 0}
+    - _Iris_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _LifeEyesBallLight_Color: {r: 0.8499113, g: 1, b: 0.8443396, a: 0}
+    - _MainColor: {r: 0.5, g: 0.49827135, b: 0.4551887, a: 1}
+    - _Pupil_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _SpecularColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    - _Specular_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Vector0: {r: 0.5, g: 0.5, b: 0.62, a: 0.59}
+  m_BuildTextureStacks: []

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: d51cea8e73f5cee4ebc09b8c52d9e23c
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Face_BaseColor: {fileID: 2800000, guid: 43de6fe210512df4d8b0569745ea146c, type: 3}
+  - _Face_Skin: {fileID: 2800000, guid: e37a235ee9a5b1d4693398687eef701b, type: 3}
+  - _Face_SDF: {fileID: 2800000, guid: 08a87f7b43338184bb3c9f3380b2f7e6, type: 3}
+  - _Face_Mask: {fileID: 2800000, guid: 38da8814b1341ff4b849597b6795741b, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

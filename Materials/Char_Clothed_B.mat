@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Char_Clothed_B
+  m_Shader: {fileID: 4800000, guid: 070a7213443fa674aa4f06ea6f1faf6e, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: 5bbfb06a4a13b80418bc4071d0b0ecba, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseColor:
+        m_Texture: {fileID: 2800000, guid: 5bbfb06a4a13b80418bc4071d0b0ecba, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Bottom_BaseColor:
+        m_Texture: {fileID: 2800000, guid: 5bbfb06a4a13b80418bc4071d0b0ecba, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Bottom_Normal_B:
+        m_Texture: {fileID: 2800000, guid: e8b8f2ca04e5cf04d91820cf97ce45b7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Bottom_SkinMask_B:
+        m_Texture: {fileID: 2800000, guid: 46805cec821826e4ba4d5cc8b565be7d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Clothes_Albedo_B:
+        m_Texture: {fileID: 2800000, guid: 5bbfb06a4a13b80418bc4071d0b0ecba, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Clothes_Albedo_T:
+        m_Texture: {fileID: 2800000, guid: 5bbfb06a4a13b80418bc4071d0b0ecba, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Clothes_Decal_B:
+        m_Texture: {fileID: 2800000, guid: fa057f6f68915b341bdf1b7e41c781fb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Clothes_Decal_T:
+        m_Texture: {fileID: 2800000, guid: fa057f6f68915b341bdf1b7e41c781fb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Clothes_Normal_B:
+        m_Texture: {fileID: 2800000, guid: e8b8f2ca04e5cf04d91820cf97ce45b7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Clothes_Normal_T:
+        m_Texture: {fileID: 2800000, guid: e8b8f2ca04e5cf04d91820cf97ce45b7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Clothes_SkinMask_B:
+        m_Texture: {fileID: 2800000, guid: 46805cec821826e4ba4d5cc8b565be7d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Clothes_SkinMask_T:
+        m_Texture: {fileID: 2800000, guid: 46805cec821826e4ba4d5cc8b565be7d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EyesUpDark:
+        m_Texture: {fileID: 2800000, guid: 08a87f7b43338184bb3c9f3380b2f7e6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Eyes_EyeballMask:
+        m_Texture: {fileID: 2800000, guid: f747f378a137aed4aa7d68bcfe97cb0a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Eyes_HDD:
+        m_Texture: {fileID: 2800000, guid: 298cf333cfac0bd47bbd5b5a89ccbb80, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Eyes_RB_Mask:
+        m_Texture: {fileID: 2800000, guid: 92ea1ceaf7069f045990d3ee22a0707a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BumpScale: 1
+    - _CDecalLightInt: 1.5
+    - _Cutoff: 0.5
+    - _Decal_Int: 1
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EdgeLength: 15
+    - _EyesBallContrast_Pow: 1
+    - _EyesBallWhite_Int: 1
+    - _EyesBall_BallPow: 1
+    - _EyesBall_BallScale: 1
+    - _EyesBall_Int: 1
+    - _EyesLine_Int: 1
+    - _EyesLine_Range: 0
+    - _EyesUpDarkNoise_Scale: 0.5
+    - _EyesUpDark_Int: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.59999996
+    - _GlossyReflections: 1
+    - _HightLightPointNoise_Threshold: 1
+    - _HightLight__PoingInt: 1
+    - _IndLightLigInt: 10
+    - _IndLightLigSmoothness: 1
+    - _IndirectSpecular_Int: 1
+    - _IndirectSpecular_Smoothness: 1
+    - _Iris_Int: 5
+    - _LifeEyesBallLight_Int: 1
+    - _LightContrast_G: 0.5
+    - _LightInt_G: 1
+    - _LightInt_G1: 3
+    - _LightLerp_G: 0.5
+    - _LightSoftEdgeInt: 0.2
+    - _LightSpecness_G: 0.2
+    - _LightThreshold: 0.45
+    - _LightThreshold_G: 0.45
+    - _Metallic: 0
+    - _Mode: 0
+    - _NoiseScale: 1
+    - _Normal: 0
+    - _OcclusionStrength: 1
+    - _OutLineInt: 2
+    - _Parallax: 0.02
+    - _Shininess: 0.1
+    - _SmoothnessTextureChannel: 0
+    - _Specness: 0.2
+    - _SpecularEdgeSoft_Int: 1
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TintDiffuseInt: 2
+    - _TintSSSInt: 2
+    - _UVSec: 0
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - _CDecalLightColor: {r: 1, g: 0.9910136, b: 0.7311321, a: 0}
+    - _ClothesTintColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DecalSpecular_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Decal_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EyesBallWhite_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _EyesBall_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _EyesLine_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _EyesUpDarkNoise_Tilling: {r: 1, g: 1, b: 0, a: 0}
+    - _EyesUpDark_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _HightLightPointNoise_Tilling: {r: 1, g: 1, b: 0, a: 0}
+    - _HightLight__PoingColor: {r: 1, g: 1, b: 1, a: 0}
+    - _IndLightLigColor: {r: 0.95283, g: 0.635686, b: 0.36405268, a: 1}
+    - _Iris_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _LifeEyesBallLight_Color: {r: 0.8499113, g: 1, b: 0.8443396, a: 0}
+    - _LightColor_G: {r: 1, g: 1, b: 1, a: 0}
+    - _MainColor: {r: 0.39215687, g: 0.39215687, b: 0.39215687, a: 1}
+    - _OutLineColor: {r: 0.22641492, g: 0.22641492, b: 0.22641492, a: 0}
+    - _SkinTintColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularColor: {r: 0.39215687, g: 0.39215687, b: 0.39215687, a: 1}
+    - _TintDiffuseColor_G: {r: 0.8679245, g: 0.6086169, b: 0.5526876, a: 1}
+    - _TintSSSColor_G: {r: 0.8679245, g: 0.6086169, b: 0.5526876, a: 1}
+  m_BuildTextureStacks: []

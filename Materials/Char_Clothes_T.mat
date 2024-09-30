@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Char_Clothes_T
+  m_Shader: {fileID: 4800000, guid: 61f62e3fc02f2494d856b594f0095c17, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: _ClothesTintColor _SkinTintColor _TintDiffuseColor_G
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: 6eb9816a894a70543a7de9f87b0a3d6a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Clothes_Albedo_T:
+        m_Texture: {fileID: 2800000, guid: 6eb9816a894a70543a7de9f87b0a3d6a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Clothes_Decal_T:
+        m_Texture: {fileID: 2800000, guid: 6f59d052d0b1d9b40a544a2cbde55b99, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Clothes_Normal_T:
+        m_Texture: {fileID: 2800000, guid: 3e2dbdf621df27e40883583fe49e4c54, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Clothes_Normal_T1:
+        m_Texture: {fileID: 2800000, guid: 650d88564804d7740b7fc6a23ea13045, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Clothes_SkinMask_T:
+        m_Texture: {fileID: 2800000, guid: a09578bcf1006b14c9a2ba8be801430f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BumpScale: 1
+    - _CDecalLightInt: 1.5
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _Float0: 11.6
+    - _Float3: 7
+    - _Float4: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.08498025
+    - _GlossyReflections: 1
+    - _IndLightLigInt: 10
+    - _IndLightLigSmoothness: 1
+    - _IndSpecLigInt: 1.44
+    - _IndSpecLigSmoothness: 1
+    - _Keyword0: 0
+    - _LIGHMASKSTYLE: 0
+    - _LightContrast: 0.3
+    - _LightContrast_G: 0.5
+    - _LightInt: 0.275
+    - _LightInt_G: 2.02
+    - _LightLerp_G: 0.5
+    - _LightSoftEdgeInt: 0.2
+    - _LightThreshold: 0.48
+    - _Metallic: 0
+    - _Mode: 0
+    - _Normal: 0
+    - _OcclusionStrength: 1
+    - _OutLineInt: 2
+    - _Parallax: 0.02
+    - _Shininess: 0.1
+    - _Smoothness: 0.72
+    - _SmoothnessTextureChannel: 0
+    - _SpecTh: 0.268
+    - _Specness: 0.2
+    - _SpecularHighlights: 1
+    - _SpecularInt: 2
+    - _SpecularInt_G: 1
+    - _SpecularIntensity: 1.07
+    - _SpecularSoftEdgeInt: 1.99
+    - _SpecularSoftEdgeInt2: 2.6
+    - _SpecularThreshold: 0.17
+    - _SpecularThreshold2: 0.415
+    - _SrcBlend: 1
+    - _TintDiffuseInt: 2
+    - _TintSpeciness: 3.3
+    - _TintSpecularInt: 0
+    - _ToonHardness_Spec: 2.29
+    - _ToonThreshold_Spec: 0.798
+    - _UVSec: 0
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - _CDecalLightColor: {r: 1, g: 0.9910136, b: 0.7311321, a: 0}
+    - _ClothesTintColor: {r: 0.9510502, g: 0.9811321, b: 0.92096835, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DiffuseTintColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _IndLightLigColor: {r: 0.9528302, g: 0.63568604, b: 0.36405307, a: 1}
+    - _IndSpecLigColor: {r: 0.930198, g: 0.9716981, b: 0.8479441, a: 0}
+    - _LightColor_G: {r: 1, g: 1, b: 1, a: 0}
+    - _MainColor: {r: 0.39215687, g: 0.39215687, b: 0.39215687, a: 1}
+    - _OutLineColor: {r: 0.3773585, g: 0.3773585, b: 0.3773585, a: 1}
+    - _SkinTintColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularColor: {r: 0.99215686, g: 0.92156863, b: 0.9098039, a: 1}
+    - _SpecularColor_G: {r: 0.99215686, g: 0.92156863, b: 0.9098039, a: 1}
+    - _TintDiffuseColor: {r: 0.98039216, g: 0.5686275, b: 0.4862745, a: 1}
+    - _TintDiffuseColor_G: {r: 0.8679245, g: 0.6086169, b: 0.55268776, a: 1}
+    - _TintSpecularColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

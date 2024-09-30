@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: f3f3868f0d4742a4ab747781b782576d
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _StarsColor_LUT: {fileID: 2800000, guid: 32975360a084d2541abd84770d1f2241, type: 3}
+  - _StarsNoiseMask: {fileID: 2800000, guid: 2bfb8742fdc10c44fb510ff6db8dd65c, type: 3}
+  - _Stars1: {fileID: 2800000, guid: 8cbe79c7ab2227240b99a8fc1bb6b066, type: 3}
+  - _DisortStartsNoise_2: {fileID: 2800000, guid: 5a0ee83140399fe4ea78cca8450a1c15, type: 3}
+  - _Stars2: {fileID: 2800000, guid: 3d2ce3c2b96432243ab626da02b296c7, type: 3}
+  - _BG_Nebula: {fileID: 2800000, guid: 54997d379d47de24a982561cabfd3d81, type: 3}
+  - _NebulaDesignateNoise: {fileID: 2800000, guid: 0ea7944d8f9c3214b95d49a23e5ac954, type: 3}
+  - _DisortStartsNoise_1: {fileID: 2800000, guid: 70e3e3256cbb5f740b1957db13f7c462, type: 3}
+  - _DisortDirt_Map: {fileID: 2800000, guid: 3eccb9b9da1df174f90b8ddbb37792a0, type: 3}
+  - _DisortNoise_Dirt4: {fileID: 2800000, guid: 260173573a981fe4f822043b056301a1, type: 3}
+  - _DisortCloudNoise_Dirt5: {fileID: 2800000, guid: 5fb5a5086e739ba49adbbd38a775b388, type: 3}
+  - _DisortNoise_Dirt6: {fileID: 2800000, guid: b570ba6e0b0a33349980ba6ee8db8a28, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

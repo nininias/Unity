@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Char_Face
+  m_Shader: {fileID: 4800000, guid: d51cea8e73f5cee4ebc09b8c52d9e23c, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: _TintLightSoftEdge
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: 43de6fe210512df4d8b0569745ea146c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Face_BaseColor:
+        m_Texture: {fileID: 2800000, guid: 43de6fe210512df4d8b0569745ea146c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Face_Mask:
+        m_Texture: {fileID: 2800000, guid: 38da8814b1341ff4b849597b6795741b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Face_SDF:
+        m_Texture: {fileID: 2800000, guid: 4f35391efdff6154fb337849800dbffc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Face_Skin:
+        m_Texture: {fileID: 2800000, guid: e37a235ee9a5b1d4693398687eef701b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ASEOutlineWidth: -0.0004
+    - _BackDirSen: 0.271
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EdgeSoft: 0
+    - _Float0: 1
+    - _Float1: 8.77
+    - _Float10: 0.319
+    - _Float11: 0.41
+    - _Float12: 0.5
+    - _Float13: 0
+    - _Float14: 18.55
+    - _Float15: 1
+    - _Float16: 0
+    - _Float2: 0
+    - _Float3: 1
+    - _Float4: 0
+    - _Float5: 0.001
+    - _Float6: 4
+    - _Float7: 1
+    - _Float8: 3
+    - _Float9: 10.06
+    - _GlossMapScale: 1
+    - _Glossiness: 0.06820911
+    - _GlossyReflections: 1
+    - _LightBoundarySoft: 0
+    - _LightContrast: 1
+    - _LightDuration: 1
+    - _LightDurationTime: 1
+    - _LightInt: 1
+    - _LightIntG: 2
+    - _LightInt_G: 3
+    - _LightLerp: 0.5
+    - _LightLerpG: 0.5
+    - _LightLerp_G: 0.5
+    - _LightSoft: 0
+    - _LightSoftEdgeInt: 0.6
+    - _LightSpecness: 0.228
+    - _LightThreshold: 0.478
+    - _LightTintSoft: 0.114
+    - _MandiableDiffTintInt: 0.95
+    - _MandiableDiffuseTintInt: 1
+    - _MandiableSpecTintInt: 0.79
+    - _MandibleLightSoftEdgeInt: 0.6
+    - _MandibleLightThreshold: 0.478
+    - _MandibleSpecInt: 1
+    - _MandibleSpecness: 0.2
+    - _MandibleTintInt: 2
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _OutLineInt: 2
+    - _Parallax: 0.02
+    - _SSSInt: 0.228
+    - _Sensitivity: 0
+    - _SensitivityB: 1
+    - _SensitivityC: 0.3
+    - _ShadowMaskContrast: 0.76
+    - _ShadowSen: 0.082
+    - _Shininess: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _Spec: 0.01
+    - _SpecInt: 0.82
+    - _Specness: 0.228
+    - _Specness1: 0.2
+    - _SpecularHighlights: 1
+    - _SpecularSoftEdgeInt: 2
+    - _SrcBlend: 1
+    - _TintDiffuseInt: 1.163
+    - _TintDiffuseLightInt: 0.336
+    - _TintDiffusionBrowInt: 2
+    - _TintLightInt: 1.5
+    - _TintLightRange: 1
+    - _TintLightSens: 27.5
+    - _TintLightSensitivity: 1
+    - _TintLightSensitivity_Curve: 0.27
+    - _TintLightSoftEdge: 0
+    - _TintLightSoftEdgeInt: 2
+    - _TintLightSoftInt: 0.114
+    - _TintSpecRange: 1
+    - _TintSpecSoftEdgeInt: 1.3
+    - _TintSpecSoftInt: 0.333
+    - _TintSpeciness: 0
+    - _TintSpecularInt: 1
+    - _TintSpecularLerp: 0.275
+    - _TrunOffSen: 0.476
+    - _UVSec: 0
+    - _ZWrite: 1
+    - __dirty: 0
+    - _c: 0.254
+    - _ff111: 0.5
+    - _lerp: 0.571
+    m_Colors:
+    - _ASEOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color0: {r: 1, g: 1, b: 1, a: 0}
+    - _DiffuseLightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DiffuseLightColor_G: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _LightColor_G: {r: 0.9811321, g: 0.89320046, b: 0.89320046, a: 1}
+    - _MainColor: {r: 0.8018868, g: 0.7816651, b: 0.27612138, a: 1}
+    - _MandiableDiffTintColor: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
+    - _MandiableDiffuseTintColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MandiableSpecTintColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MandibleColor: {r: 0.8584906, g: 0.69313663, b: 0.6600659, a: 1}
+    - _OutLineColor: {r: 0.6415094, g: 0.48113203, b: 0.48113203, a: 0}
+    - _SpecularColor: {r: 0.8207547, g: 0.7859113, b: 0.7859113, a: 1}
+    - _TintDiffuseColor: {r: 0.993, g: 0.806693, b: 0.722568, a: 1}
+    - _TintDiffuseColor1: {r: 0.9622641, g: 0.9500169, b: 0.73985404, a: 1}
+    - _TintDiffuseLightColor_G: {r: 1, g: 1, b: 1, a: 1}
+    - _TintDiffusionBrowColor: {r: 0.9245283, g: 0.9245283, b: 0.9245283, a: 1}
+    - _TintLightColor: {r: 0.9056604, g: 0.79886085, b: 0.79886085, a: 1}
+    - _TintLightColor_G: {r: 0.9811321, g: 0.89320046, b: 0.89320046, a: 1}
+    - _TintSpecularColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

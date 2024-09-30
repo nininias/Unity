@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 2e98ad67a488a21439b2e7fb16ce72ed
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _DisortStartsNoise_4: {fileID: 2800000, guid: 6df8192abdc98274187083b4d21d7479, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

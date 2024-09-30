@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Char_Hair_B
+  m_Shader: {fileID: 4800000, guid: 147edb215539d7a42aed1225e3726768, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 2001
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: 9d1a5ae9391cc3e48a85100cb6e2aa46, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Hair_Albedo:
+        m_Texture: {fileID: 2800000, guid: 9d1a5ae9391cc3e48a85100cb6e2aa46, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Hair_HA_Repaired:
+        m_Texture: {fileID: 2800000, guid: c9ec608d9ac67ef4291706ab5a0b6e35, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AO: 1
+    - _ASEOutlineWidth: 0
+    - _AnisoSpecShininess: 0.89
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _Float0: 15.75
+    - _Float3: 1
+    - _Float4: 0.433
+    - _Float6: 0.5
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _HairShapeInt: 1.06
+    - _HightLightShadowAnisoInt: 0.3
+    - _HightLightShadowLerp: 0.786
+    - _HightLightTintInt: 5
+    - _LightContrast_G: 0.5
+    - _LightInt_G: 2
+    - _LightLerp_G: 0.473
+    - _LightSoftEdgeInt: 0.59
+    - _LightSpecness: 1
+    - _LightSpecnessMul: 1
+    - _LightThreshold: 0.301
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _OutLineInt: 1.5
+    - _Parallax: 0.02
+    - _Shininess: 0.1
+    - _SmoothnessTextureChannel: 0
+    - _Specness: 1
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TintDiffuseInt: 5
+    - _UVSec: 0
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - _ASEOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _HightLightTintColor: {r: 1, g: 0.9817752, b: 0.9198113, a: 0}
+    - _LightColor_G: {r: 1, g: 1, b: 1, a: 0}
+    - _MainColor: {r: 0.39215687, g: 0.39215687, b: 0.39215687, a: 1}
+    - _OutLineColor: {r: 0.37735847, g: 0.15554407, b: 0.09433959, a: 1}
+    - _RampColor: {r: 1, g: 0.39699998, b: 0.582, a: 0.20784314}
+    - _SpecularColor: {r: 0.39215687, g: 0.39215687, b: 0.39215687, a: 1}
+    - _TintDiffuseColor_G: {r: 0.9056604, g: 0.7561409, b: 0.898706, a: 1}
+    - _TintDiffuseLightColor_G: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

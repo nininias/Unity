@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e2964c3d6a6aedd48acb93c9a9876906
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Eyes_BallMask: {fileID: 2800000, guid: f747f378a137aed4aa7d68bcfe97cb0a, type: 3}
+  - _Eyes_HDDMask: {fileID: 2800000, guid: 298cf333cfac0bd47bbd5b5a89ccbb80, type: 3}
+  - _Eyes_BaseColor: {fileID: 2800000, guid: fd19814ce4f70c940901695a75559427, type: 3}
+  - _Eyes_UpDark: {fileID: 2800000, guid: 08a87f7b43338184bb3c9f3380b2f7e6, type: 3}
+  - _Eyes_LiftLightMask: {fileID: 2800000, guid: 92ea1ceaf7069f045990d3ee22a0707a, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
